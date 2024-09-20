@@ -9,65 +9,181 @@
     </head>
     <body>
         <!-- page content -->
-        <h1>Amy Reichhold</h1>
-        <p>Seeking entry-level software engineering internship.</p>
+        <header>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="#section1">Home</a></li>
+                    <li><a href="#section2">About Me</a></li>
+                    <li><a href="#section3">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="section1">
+            <h1>Amy Reichhold</h1>
+            <p>Seeking entry-level software engineering position.</p>
 
-        <img src="AmyReichhold.jpeg" alt="Photo of Amy Reichhold in front of brick wall">
-        
-        <h2>Technical Skills</h2>
+            <img src="AmyReichhold.jpeg" 
+                 alt="Photo of Amy Reichhold in front of brick wall">
+        </section>
 
-        <figure>
-         <figcaption>Extensive:</figcaption>
-         <ul>
-          <li>C</li>
-          <li>Python</li>
-          <li>Linux</li>
-          <li>GCC</li>
-          <li>Vi/Vim</li>
-         </ul>
-        </figure>
+        <section id="section2">
+            <h1>About Me</h1>
+            <p> I'm interested in data structures and algorithm design. 
+            My preferred language is C. I enjoy the iterative process of 
+            software development; much like writing a paper, the first draft 
+            is often not the best draft, and improves after additional 
+            analysis, distillation, and optimization. I'm excited to develop 
+            my interests further by learning from working experience and 
+            fellow colleagues.
+            </p>
 
-        <figure>
-         <figcaption>Intermediate:</figcaption>
-         <ul>
-          <li>Bash</li>
-          <li>Git</li>
-          <li>Javascript</li>
-          <li>HTML</li>
-          <li>CSS</li>
-         </ul>
-        </figure>
+            <p>Outside of work, I enjoy running and swimming, watching 
+            baseball games, playing video games and watching shows with my 
+            best friend, and spending time with my furry family members.
+            </p>
+        </section>
+	
+        <section id="section3">
+            <h1>Projects</h1>
+            <div class="projects-container">
+                <div class="project-box">
+                    <h2>Euro-Flow</h2>
+                    <a href="https://github.com/AmyReichhold/Euro-Flow" 
+                       class="fill-div"></a>
+                    <p>
+                    Europe travel itinerary cost optimization using max-flow.
+                    </p>
+                </div>
+                <div class="project-box">
+                    <h2>Not-Wordle</h2>
+                    <a href="https://github.com/AmyReichhold/not-wordle" 
+                       class="fill-div"></a>
+                    <p>
+                    A game in the style of Wordle.
+                    </p>
+                </div>
+                <div class="project-box">
+                    <h2>Bargain-Boxing</h2>
+                    <a href="https://github.com/AmyReichhold/bargain-boxing" 
+                       class="fill-div"></a>
+                    <p>
+                    A program that calculates the minimum number of remaining 
+                    boxes by nesting them based on their dimensions.
+                    </p>
+                </div>
+                <div class="project-box">
+                    <h2>Cool-Call</h2>
+                    <a href="https://github.com/AmyReichhold/cool-call" 
+                       class="fill-div"></a>
+                    <p>
+                    A computer system for cold-calling students.
+                    </p>
+                </div>
+                <div class="project-box">
+                    <h2>Duck-View</h2>
+                    <a href="https://github.com/AmyReichhold/duck-view" 
+                       class="fill-div"></a>
+                    <p>
+                    An image processing system that combines, blends, and 
+                    resizes images.
+                    </p>
+                </div>
+            </div>
+        </section>
 
-        <figure>
-         <figcaption>Basic:</figcaption>
-         <ul>
-          <li>C++</li>
-          <li>Java</li>
-          <li>CPLEX</li>
-          <li>LaTeX</li>
-         </ul>
-        </figure>
+        <section id="section4">
+            <h1>Technical Skills</h1>
 
-        <h2>Interests</h2>
-        <p> I'm interested in data structures and algorithm design. My preferred language is C. I enjoy the iterative process of software development; much like writing a paper, the first draft is often not the best draft, and improves after additional analysis, distillation, and optimization. I'm excited to develop my interests further by learning from working experience and fellow colleagues.
-        </p>
+            <div class="skills-container">
+                <div class="skills-box">
+                    <h2>Extensive</h2>
+                    <ul>
+                     <li>C/C++</li>
+                     <li>Python</li>
+                     <li>Linux/UNIX</li>
+                     <li>Vi/Vim</li>
+                    </ul>
+                </div>
+                <div class="skills-box">
+                    <h2>Intermediate</h2>
+                    <ul>
+                     <li>Bash</li>
+                     <li>Git</li>
+                     <li>Javascript</li>
+                     <li>HTML</li>
+                     <li>CSS</li>
+                     <li>Software Development <br> Life Cycle</li>
+                    </ul>
+                </div>
+                <div class="skills-box">
+                    <h2>Basic</h2>
+                    <ul>
+                        <li>Java</li>
+                        <li>MySQL</li>
+                        <li>Docker</li>
+                        <li>JQuery</li>
+                        <li>MongoDB</li>
+                        <li>CPLEX</li>
+                        <li>LaTeX</li>
+                    </ul>
+                </div>
+            </div>
 
-        <p>Outside of work, I enjoy running and swimming, watching baseball games, playing video games and watching shows with my best friend, and spending time with my furry family members.
-        </p>
 
-        <h2>Projects</h2>
-        <ul>
-            <li><a href="https://github.com/AmyReichhold/Euro-Flow">Euro-Flow</a>: Europe travel itinerary cost optimization using max-flow.</li>
-        </ul>
+            <!-- Original Skills List -->
+            <!--
+            <figure>
+             <figcaption>Extensive:</figcaption>
+             <ul>
+              <li>C</li>
+              <li>Python</li>
+              <li>Linux</li>
+              <li>GCC</li>
+              <li>Vi/Vim</li>
+             </ul>
+            </figure>
 
-        <h2>Links</h2>
-        <ul>
-            <li><a href="https://github.com/AmyReichhold">github.com/AmyReichhold</a></li>
-            <li><a href="https://www.linkedin.com/in/AmyReichhold">linkedin.com/in/AmyReichhold</a></li>
-        </ul>
+            <figure>
+             <figcaption>Intermediate:</figcaption>
+             <ul>
+              <li>Bash</li>
+              <li>Git</li>
+              <li>Javascript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+             </ul>
+            </figure>
+
+            <figure>
+             <figcaption>Basic:</figcaption>
+             <ul>
+              <li>C++</li>
+              <li>Java</li>
+              <li>CPLEX</li>
+              <li>LaTeX</li>
+             </ul>
+            </figure> 
+            -->
+        </section>
 
         <footer>
-            <p>Copyright 2022 by Amy Reichhold.</p>
+            <div class="footer-row">
+                <div class="footer-item">
+                    <a href="https://github.com/AmyReichhold" 
+                       target="_blank">
+                        <img id="github-icon" src="github.png">
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <a href="https://www.linkedin.com/in/AmyReichhold" 
+                       target="_blank">
+                        <img id="linkedin-icon" src="linkedin.png">
+                    </a>
+                </div>
+                <div class="footer-item">
+                    <p>Copyright 2022 by Amy Reichhold.</p>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
