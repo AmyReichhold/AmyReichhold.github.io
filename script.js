@@ -1,10 +1,5 @@
 let lastScrollTop = 0;
 
-function keepNavbarVisible() {
-    const navbar = document.getElementById('navbar');
-    navbar.style.top = '0';
-}
-
 function scrollChangesNavbarVisibility() {
     const navbar = document.getElementById('navbar');
 
