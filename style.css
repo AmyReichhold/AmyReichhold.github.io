@@ -8,6 +8,8 @@ body {
     color: #ffffff;
     margin: 0;
     font-family: Arial, sans-serif;
+    width: 80vw;
+    margin: auto;
 }
 
 img {
@@ -33,6 +35,7 @@ img {
     color: white;
     text-decoration: none;
     text-align: center;
+    font-size: 1.2em;
 }
 
 .navbar a:hover {
@@ -45,8 +48,18 @@ p {
 
 section {
     padding: 10px 30px;
-    min-height: 30vh;
-    border-bottom: 1px solid #ccc;
+    min-height: 20vh;
+    border: none;
+}
+
+section .box-section {
+    text-align: center;
+}
+
+section .box-section h1 {
+    color: #000;
+    max-width: 60vw;
+    text-align: left;
 }
 
 /* Project Container */
@@ -54,14 +67,12 @@ section {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
     grid-template-rows: repeat(2, 200px); /* 2 rows with fixed height */
-    gap: 10px;
+    width: 75vw;
+    margin: auto;
+    gap: 2em;
     padding: 10px;
 
     justify-content: center;
-
-    /*
-    display: inline-flex;
-    */
 }
 
 /* Project Box */
@@ -73,10 +84,14 @@ section {
     /* margin: 10px;*/
     padding: 10px;
     max-width: 300px;
+    min-width: 300px;
+    min-height: 178px;
+    max-height: 178px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: relative;
 
     display: inline-block;
+    margin: auto;
 }
 
 .project-box a {
@@ -106,32 +121,28 @@ section {
     white-space: normal;
 }
 
-
 /* Skills Container */
 .skills-container {
-    display: inline-flex;
+    display: flex;
     gap: 20px;
     padding: 10px;
 
     justify-content: center;
-
-    /*
-    display: inline-flex;
-    display: grid;
-    */
 }
+
 /* Skills Box */
 .skills-box {
     background-color: #537692;
     border: 1px solid #ddd;
     border-radius: 8px;
-    padding: 10px;
     min-height: 200px;
     min-width: 200px;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     position: relative;
 
     display: inline-block;
+    padding: 1.2em;
+    margin: 1.15em;
 }
 
 .skills-box h2 {
@@ -156,25 +167,31 @@ section {
 /* Footer */
 .footer-row {
     padding: 0;
+    padding-top: 1em;
     margin: 0;
-    display: flex;
     justify-content: center;
+    text-align: center;
+
 }
 
-.footer-item{
+.footer-item {
     padding: 14px 20px;
-    display: block;
     color: white;
     text-decoration: none;
-    text-align: center;
+    vertical-align: middle;
 }
 
-#github-icon {
-    height: 3em;
-    width: 3em;
+.footer-item a img {
+    height: 5%;
+    width: 5%;
 }
 
-#linkedin-icon {
-    height: 3.2em;
-    width: 3.2em;
+#linkedin-logo {
+    background-color: #ffffff;
+    border: solid .25em #fff;
+    border-radius: .25em;
+}
+
+.footer-item a {
+    text-decoration: none;
 }
