@@ -10,11 +10,27 @@ body {
     font-family: Arial, sans-serif;
     width: 80vw;
     margin: auto;
+    /* padding-top: 3.1em; */
 }
 
 img {
     height: 25%;
     width: 25%;
+}
+
+header {
+    height: 3.1em;
+}
+
+nav {
+    background-color: #00172e;
+    position: fixed;
+    top: 0;
+    padding: 10px 0;
+    transition: top 0.3s;
+    height: 3em;
+    width: 80vw;
+    z-index: 1000;
 }
 
 .navbar {
